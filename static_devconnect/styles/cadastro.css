@@ -69,7 +69,7 @@ flex-direction: column;
 {
 
 font-size: var(--tamanho-fonte-sm) ;
-color: var(--cor-cinza-escuro) ;
+color: var(--cor-cinza-escuro2) ;
 font-weight: 500;
 padding-bottom: 4px;
 }
@@ -87,10 +87,8 @@ height: 70%;
 #formulario > p 
 
 {
-
-text-transform: uppercase;
 font-size: var(--tamanho-fonte-sm);
-color: var(--cor-cinza-claro);
+color: var(--cor-cinza-escuro);
 
 }
 
@@ -107,8 +105,11 @@ color: var(--cor-azul);
 
 }
 
-.formulario-botao-azul
+.formulario-botao-transparente{
+    width: 100%;
+}
 
+.formulario-botao-azul
 {
 
     width: 100%;  
@@ -160,23 +161,3 @@ font-size: var(--tamanho-fonte-sm);
 
 }
 
-/* instalação */
-
-#secao-instalacao
-
-{
-
-display: flex;
-justify-content: space-around;
-gap: 10px;
-flex-wrap: wrap;
-
-
-}
-
-#secao-instalacao img
-
-{
-    width: 120px;
-    height: 39px;
-}
