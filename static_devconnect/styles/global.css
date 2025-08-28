@@ -42,6 +42,7 @@ h1{
 
 
 /* formullario*/
+
 input{
     width: 100%;
     height: 35px;
@@ -69,3 +70,84 @@ font-size: var(--tamanho-fonte-sm);
 font-weight: 600;
 
     }
+
+    #campo-upload{
+        display: none;
+    }
+
+    #texto-upload{
+        display: inline-block;
+        width: 100%;
+        max-width: 200px;
+        padding: 10px;
+        background-color:var(--cor-cinza-escuro);
+        color: var(--cor-branco);
+        text-align: center;
+    }
+
+/* cabeçalho */
+#cabecalho{
+    width: 100%;/*100% da janela de visualização*/
+    height: 80px;
+   background-color: var(--cor-branco);
+    display: flex;
+    justify-content: center;
+   /* align-items: center;*/
+   border-bottom: var(--borda);
+}
+
+#cabecalho > nav{
+    width: 85%;
+    max-width: 1440px;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-mobile{
+    display: none;
+}
+
+.cabecalho-acoes{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.cabecalho-acoes > a{
+    display: flex;
+    align-items: center;
+}
+
+#foto-perfil{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+
+/* Responsivo */
+
+@media only screen and (max-width: 485px) {
+
+    #logo-mobile{
+        display: initial;
+    }
+
+
+    #logo-desktop{
+        display: none;
+    }
+}
+
+#formulario{
+    width: 100%;
+    background-color: white;
+}
+    
+
